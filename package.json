@@ -1,0 +1,40 @@
+{
+  "name": "vehicle-maintenance-scheduler",
+  "version": "1.0.0",
+  "description": "A comprehensive backend system for tracking and scheduling vehicle maintenance tasks. Features robust logging middleware, alert generation, and dashboard metrics.",
+  "main": "vehicle_maintenance_scheduler/handlers/Controller.js",
+  "scripts": {
+    "start": "node vehicle_maintenance_scheduler/handlers/Controller.js",
+    "test": "node test/test.js",
+    "examples": "node EXAMPLES.js",
+    "dev": "nodemon vehicle_maintenance_scheduler/handlers/Controller.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "vehicle",
+    "maintenance",
+    "scheduler",
+    "backend",
+    "nodejs",
+    "logging",
+    "alerts"
+  ],
+  "author": "Vehicle Maintenance Team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/vehicle-maintenance-scheduler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/example/vehicle-maintenance-scheduler/issues"
+  },
+  "homepage": "https://github.com/example/vehicle-maintenance-scheduler#readme"
+}
