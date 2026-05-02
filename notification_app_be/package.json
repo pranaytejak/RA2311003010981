@@ -1,0 +1,13 @@
+{
+  "name": "notification-app-be",
+  "version": "1.0.0",
+  "description": "Notification Priority Inbox Service",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
